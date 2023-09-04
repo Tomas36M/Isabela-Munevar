@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #C9D6FF;
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+  padding: 0;
+  margin: 0;
+  font-family: 'Baskervville', serif;
+}
+
+.heading-blind{
+  font-size: 0;
+  width: 0;
+  padding: 0;
+  height: 0;
+  margin: 0;
+}
+
+.font-link {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  padding-left: 15px;
+}
+
+.accordion{
+  margin: 10px;
+}
+
+.accordion-button {
+  text-align: left;
+}
+
+.nav-items {
+  padding-right: 30px;
+}
+
+.serach-bar {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.accordion {
+  margin: 10px;
+}
+
+.accordion-button:is(.collapsed) {
+  background-color: #ffffff;
+  color: black;
+}
+
+.publication {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.acordion-section {
+  padding: 15px;
+
+}
+
+.heading {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1199px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  .media-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #7697b6;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+  color: black;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  font-size: 17px;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.overlay {
+  background-image: linear-gradient(to right, rgba(90, 100, 232, 0.9), rgba(84, 96, 234, 0.9));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: relative;
+  padding: 110px 0;
+}
+
+.section-bg {
+  background-size: cover;
+  position: relative;
+  background-position: left;
+  z-index: 0;
+  padding: 0;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.contact {
+  padding: 30px 0;
+}
+
+.contact .heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.contact .heading h2 span {
+  color: #7697b6;
+}
+
+.contact .heading p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #999999;
+  margin: 20px 0 60px;
+  padding: 0;
+}
+
+.contact .form-control {
+  padding: 25px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+}
+
+.contact button.btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #7697b6;
+  color: #ffffff;
+}
+
+.contact .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact .title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+.contact .content .info {
+  margin-top: 30px;
+}
+.contact .content .info i {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #02434b;
+  margin-right: 20px;
+  text-align: center;
+  width: 20px;
+}
+.contact .content .info h4 {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+  font-size: 13px;
+  font-weight: 300;
+  color: #999999;
+}
+
+.heading-w {
+  margin-top: 50px;
+}
+
+.row-h {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 3em 0 0;
+}
+
+.dropdown {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+.dropdown input[type=checkbox] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.dropdown label {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 1.75rem;
+  font-size: 15px;
+  line-height: 2rem;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  font-family: Arial, sans-serif;
+  
+}
+
+.dropdown label:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-left: 8px solid #665e5e;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  margin-left: 4px;
+}
+
+.dropdown input[type=checkbox]:checked ~ label:before {
+  border-left: 8px solid transparent;
+  border-top: 8px solid #504343;
+  border-right: 8px solid transparent;
+  margin: 6px 0 0;
+}
+
+.dropdown .text {
+  max-height: 0;
+  transition: max-height 1s;  
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.6rem;
+  letter-spacing: 0.05em;
+  color: #333;
+  padding-left: 1.75rem;
+}
+
+.dropdown input[type=checkbox]:checked ~ .text {
+  max-height: 500px;
+}
+
+.u-logo{
+  width: 100%;
+  height: 100px;
+}
+
+.heroimg-cont{
+  width: 100%;
+  height: 100%;
+}
+
+
+
