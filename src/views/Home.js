@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Isabela Munevar Escalante</title>
+                <title>Isabela Munevar Escalante E</title>
                 <meta name="description" content="Isabela Munevar Escalante" />
                 <meta name="author" content="Isabela Munevar Escalante"></meta>
             </Helmet>
